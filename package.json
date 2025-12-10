@@ -1,0 +1,23 @@
+{
+  "name": "kop-i",
+  "version": "1.0.0",
+  "description": "<p align=\"center\">   <img src=\"assets/logo.jpg\" alt=\"kop-i logo\" width=\"200\"> </p>",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "neu run",
+    "build": "neu build",
+    "start": "neu run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^24.10.2",
+    "typescript": "^5.9.3"
+  }
+}

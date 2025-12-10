@@ -10,6 +10,54 @@ A modern, lightweight clipboard manager with AI capabilities
 
 kop-i is a cross-platform clipboard manager that combines ease of use, security, and artificial intelligence. Inspired by Maccy for macOS, kop-i brings advanced features to all major platforms while maintaining a lightweight architecture thanks to Node.js and Neutralino.js.
 
+## Development Setup
+
+```bash
+# 1. Clona il repository
+git clone <repository-url>
+cd kop-i
+
+# 2. npm project iniit
+npm init -y
+
+# 3. Neutralino CLI global installation
+npm install -g @neutralinojs/neu
+
+# 4. Neutralino installation check
+neu --version
+
+# 5. Scaffolding
+mkdir -p src/{core,ui,data,utils} resources/{icons,styles} tests docs
+
+# 6. TypeScript dev dependecies
+npm install --save-dev typescript @types/node
+
+# 7. TypeScript init
+npx tsc --init
+
+# 8. Neutralino project creation
+neu create kop-i
+
+# 9. npm dependencies
+npm install
+
+# 10. Running app
+neu run / npm run dev
+```
+## Commit convention
+```
+Initial setup
+git commit -m "chore: setup project scaffolding"
+
+Function
+git commit -m "feat: implement clipboard history capture"
+
+Bug fixing
+git commit -m "fix: prevent duplicate entries in history"
+
+README update
+git commit -m "docs: add installation instructions"
+```
 ## Roadmap
 
 ### Phase 0 – Preparation
