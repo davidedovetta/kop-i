@@ -133,7 +133,10 @@ kop-i is an open source project and welcomes contributions! More details coming 
 
 ## Project Status
 
-**Current phase**: Phase 0 - Preparation
+**Current phase**: 
+1. Clipboard watcher implementation
+2. Save last 50 item in memory
+3. Neutralino deep dive
 
 The project is in the early stages of development. Follow this repository for updates!
 
