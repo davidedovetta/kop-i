@@ -6,8 +6,6 @@
 
 A modern, lightweight clipboard manager with AI capabilities
 
-## Vision
-
 kop-i is a cross-platform clipboard manager that combines ease of use, security, and artificial intelligence. Inspired by Maccy for macOS, kop-i brings advanced features to all major platforms while maintaining a lightweight architecture thanks to Node.js and Neutralino.js.
 
 ## Development Setup
@@ -62,10 +60,10 @@ git commit -m "docs: add installation instructions"
 
 ### Phase 0 – Preparation
 - [x] GitHub repository creation
-- [ ] Visual identity definition (logo, naming)
-- [ ] Folder structure setup (src, UI, data, resources)
-- [ ] Technology stack configuration (Node.js + Neutralino.js)
-- [ ] Development environment setup
+- [x] Visual identity definition (logo, naming)
+- [x] Folder structure setup (src, UI, data, resources)
+- [x] Technology stack configuration (Node.js + Neutralino.js)
+- [x] Development environment setup
 
 ### Phase 1 – MVP (Basic Clipboard Manager)
 **Goal**: Create a functional, stable, and minimal clipboard manager inspired by Maccy.
