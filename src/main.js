@@ -1,5 +1,5 @@
 // import clipboard watcher
-import { startWatcher } from './core/clipboardWatcher.js';
+import { startWatcher } from './core/clipboardWatcher';
 /**
  * Applicaton initialization function
  */
